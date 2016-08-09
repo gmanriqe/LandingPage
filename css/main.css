@@ -120,10 +120,64 @@ section#parallax {
 	background-image: url(../img/ipadApp.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: cover; /*cojera todo el ancho y alto de su contenedor
-	
+	background-size: cover; /*cojera todo el ancho y alto de su contenedor*/
+
 }
-/*font-family: 'Roboto Condensed', sans-serif;*/
+
+/*DESCARGAR*/
+
+.descargar-container-fluid {
+	padding: 0;
+	position: relative;
+}
+
+section#descargar div.contenido-descarga {
+	height: 700px;
+}
+
+section#descargar div.phone {
+	width: 50%;
+	float: left;
+	height: 100%;
+	box-shadow: inset -7px -7px 12px -2px rgba(0,0,0, .15);
+	z-index: 5;
+	text-align: center;
+}
+
+section#descargar div.derecha-vacio {
+	width: 50%;
+	background: #f5f5f5;
+	float: right;
+	height: 100%;
+	z-index: 6;
+	background-image: url(../img/descargaAppBG.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+section#descargar .descarga {
+	position: absolute; 
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: 50px;
+}
+
+section#descargar .plataformas > div {
+	border-radius: 20px;
+	border: 3px solid #0c243d;
+	padding: 11px 0;
+	font-size: 1.2em;
+	position: relative;
+	padding-left: 50px;
+	color: #0c243d;
+}
+
+section#descargar .plataformas > div span {
+	font-weight: bold;
+}
+/*font-family: 'Roboto Condensed', sans-serif;
 
 
 

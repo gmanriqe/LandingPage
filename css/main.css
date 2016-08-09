@@ -54,7 +54,11 @@ h2.parallax {
 }
 
 .gris-background {
-	background-color: #f5f5f5;
+	background: #f5f5f5;
+}
+
+.azul-background {
+	background: #123156;
 }
 
 /*PRINCIPAL*/
@@ -177,6 +181,67 @@ section#descargar .plataformas > div {
 section#descargar .plataformas > div span {
 	font-weight: bold;
 }
+
+/*SOPORTE*/
+
+section#soporte h1 {
+	color: #fff;
+}
+
+section#soporte .separador {
+	background: #fff;
+}
+
+section#soporte p {
+	font-size: 1.6em;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+section#soporte .campos {
+	background-color: #123156;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	color: #fff;
+}
+
+section#soporte form {
+	margin-top: 30px;
+}
+
+section#soporte input {
+	min-height: 50px;
+	margin-bottom: 20px;
+}
+
+section#soporte textarea {
+	min-height: 200px;
+}
+
+section#soporte .btn.btn-default {
+	background: #fff;
+	border-radius: 14px;
+	padding: 5px 43px;
+	font-size: 1.4em;
+	text-transform: uppercase;
+}
+
+::-webkit-input-placeholder { /*cambio de color en el valor del placeholder*/
+   color: #fff !important;
+}
+
+:-moz-placeholder { /* Firefox 18- */ /*cambio de color en el valor del placeholder*/
+   color: #fff;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */ /*cambio de color en el valor del placeholder*/
+   color: #fff;  
+}
+
+:-ms-input-placeholder {  /*cambio de color en el valor del placeholder*/
+   color: #fff;  
+}
+
 /*font-family: 'Roboto Condensed', sans-serif;
 
 

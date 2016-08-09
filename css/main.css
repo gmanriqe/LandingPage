@@ -17,6 +17,17 @@ body > section {
 	padding: 50px 0;
 }
 
+h1, h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+	color: #0c243d; /*optimizar*/
+	text-transform: uppercase; /*optimizar*/
+	font-weight: 700;
+	font-size: 2.4em;
+}
+
 h2 {
 	color: #0c243d;
 	text-transform: uppercase;
@@ -32,6 +43,10 @@ h2 {
 	margin: auto;
 	background: #0c243d;
 	margin-bottom: 30px;
+}
+
+.gris-background {
+	background-color: #f5f5f5;
 }
 
 /*PRINCIPAL*/
@@ -58,7 +73,38 @@ section#app .social{
 	line-height: 180px;
 }
 
+/*CARACTERISTICAS*/
 
+section#caracteristicas p {
+	font-size: .9em;
+	color: #858585;
+}
+
+section#caracteristicas .caracteristica {
+	margin-bottom: 10px;
+	clear: both;
+}
+
+section#caracteristicas .icono {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background: #123156;
+	margin: auto;
+	line-height: 140px;
+	text-align: center;
+}
+
+/*PANTALLAS*/
+
+div.modal-body {
+	text-align: center;
+}
+
+div.modal-body img {
+	max-height: 90vh;
+}
+/*font-family: 'Roboto Condensed', sans-serif;*/
 
 
 

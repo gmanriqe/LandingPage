@@ -74,6 +74,10 @@ section#principal {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e3d5a', endColorstr='#0c223b',GradientType=0 );
 }
 
+section#principal img {
+	margin: auto;
+}
+
 /*APP*/
 
 section#app .social{
@@ -90,6 +94,10 @@ section#app .social{
 section#caracteristicas p {
 	font-size: .9em;
 	color: #858585;
+}
+
+section#caracteristicas img#app-central {
+	margin: auto;
 }
 
 section#caracteristicas .caracteristica {

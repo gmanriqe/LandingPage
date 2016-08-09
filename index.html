@@ -174,7 +174,7 @@
                                 <p>Consectetur adipisicing elit. Necessitatibus.</p>
                             </div>
                         </div>
-                        
+
                         <div class="caracteristica"> <!-- caracteristica -->
                             <div class="col-md-4">
                                 <div class="icono">
@@ -193,11 +193,36 @@
         <section id="pantallas"> <!-- pantallas -->
             <h1>Pantallas</h1>
             <div class="separador"></div>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="#modal" data-toggle="modal" data-image-url="img/boletos.png">
+                            <img src="img/boletos.png" alt="Imagen Boletos">
+                        </a>
+                    </div>
 
-            <div>
-                <img src="img/boletos.png" alt="Imagen Boletos">
-                <img src="img/puntos.png" alt="Imagen Puntos">
-                <img src="img/trailers.png" alt="Imagen Trailers">
+                    <div class="col-sm-4">
+                        <a href="#modal" data-toggle="modal" data-image-url="img/puntos.png">
+                            <img src="img/puntos.png" alt="Imagen Puntos">
+                        </a>
+                            
+                    </div>
+
+                    <div class="col-sm-4">
+                        <a href="#modal" data-toggle="modal" data-image-url="img/trailers.png">
+                            <img src="img/trailers.png" alt="Imagen Trailers">
+                        </a>
+                            
+                    </div>
+
+                </div>
+            </div>
+            <div id="modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledy="myModalLabel" aria-hidden="true">
+                <div class="modal-body">
+                    <img src="#" alt="">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Cerrar</button>
+                </div>
             </div>
         </section>
 

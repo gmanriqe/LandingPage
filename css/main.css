@@ -112,7 +112,11 @@ section#app .social{
 	background: #123156;
 	margin: auto;
 	line-height: 180px;
+}
+
+section#app .social i {
 	color: #fff;
+	font-size: 3em;
 }
 
 /*CARACTERISTICAS*/
@@ -142,6 +146,8 @@ section#caracteristicas .icono {
 	color: #fff;
 }
 
+
+
 /*PANTALLAS*/
 
 div.modal-body {
@@ -150,6 +156,11 @@ div.modal-body {
 
 div.modal-body img {
 	max-height: 90vh;
+}
+
+section#caracteristicas .icono i {
+	font-size: 2.6em;
+	color: #fff;
 }
 
 /*PARALLAX*/
@@ -211,6 +222,14 @@ section#descargar .plataformas > div {
 	position: relative;
 	padding-left: 50px;
 	color: #0c243d;
+}
+
+/*Posicionado correctamente los iconos en descargas (apple y android)*/
+section#descargar .plataformas > div i {
+	font-size: 2.5em;
+	position: absolute;
+	left: 20px;
+	top: 10px;
 }
 
 section#descargar .plataformas > div span {

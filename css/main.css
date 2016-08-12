@@ -275,6 +275,20 @@ section#soporte .btn.btn-default {
    color: #fff;  
 }
 
+/*EFECTO MENU */
+
+.efecto {
+	background: #123156;
+	min-height: 30px;
+	box-shadow: 0 0 10px black;
+	padding-top: 0;
+	transition: 1.5s;
+}
+
+.normal {
+	transition: 1s all ease;
+}
+
 @media all and (max-width: 500px){
 	/*body {
 		background: red;

@@ -275,6 +275,86 @@ section#soporte .btn.btn-default {
    color: #fff;  
 }
 
+@media all and (max-width: 500px){
+	/*body {
+		background: red;
+	}*/
+	section#descargar div.phone {
+		width: 100%;
+	}
+
+	section#caracteristicas > section.col-xs-6 {
+		width: 100% !important;
+	}
+
+	section#caracteristicas > .col-xs-6 {
+		width: 100%;
+	}
+
+	section#caracteristicas .caracteristica {
+		min-height: initial;
+	}
+
+	section#caracteristicas .icono {
+		display: none;
+	}
+
+	section#descargar div.derecha-vacio {
+		display: none;
+	}
+
+	section#decargar .descarga {
+		position: relative;
+	}
+
+	.container.descarga {
+	    display: none;
+	}
+
+	div.descarga .col-xs-offset-6{
+		width: 100%;
+		margin: 0;
+	}
+
+	.margen-descarga h2 {
+	    margin-top: 0;
+	}
+}
+
+@media all and (max-width: 767px){
+	section#principal {
+		height: auto;
+		min-height: initial;
+	}
+
+	.navbar-default .navbar-collapse {
+		background: #123156;
+	}
+
+	section#caracteristicas .caracteristica {
+		min-height: 150px;
+		text-align: center;
+	}
+
+	section#descargar .plataformas > div {
+		margin-bottom: 20px;
+		padding: 21px 0;
+	}
+
+	section#descargar div.phone {
+		height: auto;
+	}
+
+	section#descargar div.contenido-descarga {
+		height: auto;
+	}
+
+	section#parallax {
+		background-attachment: scroll;
+	}
+}
+
+
 /*font-family: 'Roboto Condensed', sans-serif;*/
 
 

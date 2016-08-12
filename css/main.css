@@ -112,6 +112,7 @@ section#app .social{
 	background: #123156;
 	margin: auto;
 	line-height: 180px;
+	color: #fff;
 }
 
 /*CARACTERISTICAS*/
@@ -138,6 +139,7 @@ section#caracteristicas .icono {
 	margin: auto;
 	line-height: 140px;
 	text-align: center;
+	color: #fff;
 }
 
 /*PANTALLAS*/

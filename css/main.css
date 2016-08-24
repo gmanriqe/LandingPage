@@ -61,6 +61,20 @@ h2.parallax {
 	background: #123156;
 }
 
+/*TRUCO para que no aparezca hasta que se anime*/
+.anima1, .anima2, .anima3, img#app-central {
+	opacity: 0;
+}
+
+/*RETRAZANDO animaciones*/
+.anima2 {
+	animation-delay: .3s;
+}
+
+.anima3 {
+	animation-delay: .6s;
+}
+
 /*MENU*/
 
 .navbar-default {
